@@ -20,6 +20,7 @@ $('#ReadMoreIF').animate({
   height: 'toggle'
 }, 0);
 
+console.log("JS Loaded");
 
 $('#rm1').click(function() {
   $(this).html(rfText);
