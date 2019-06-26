@@ -24,6 +24,7 @@ $('#ReadMoreIF').animate({
 $('#rm1').click(function() {
   $(this).html(rfText);
   rfText = rfText == 'Read Less' ? 'Read More' : 'Read Less';
+  console.log("ReadMore RF");
   $('#ReadMoreRF').animate({
       height: 'toggle'
     }, 3600);
@@ -32,6 +33,7 @@ $('#rm1').click(function() {
 $('#rm2').click(function() {
   $(this).html(ofText);
   ofText = ofText == 'Read Less' ? 'Read More' : 'Read Less';
+  console.log("ReadMore IF");
   $('#ReadMoreIF').animate({
       height: 'toggle'
   }, 3600);
