@@ -20,7 +20,7 @@ $('#ReadMoreIF').animate({
   height: 'toggle'
 }, 0);
 
-console.log("JS Loaded");
+console.log("JS Loaded not MASTER");
 
 $('#rm1').click(function() {
   $(this).html(rfText);
